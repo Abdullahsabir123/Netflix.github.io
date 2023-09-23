@@ -11766,3 +11766,25 @@ a{
 .bgcolr{
     background-color: black;
 }
+.tvpos{
+    position: relative;
+    bottom: 175px;
+    left: 35px;
+}
+.imgpos{
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+.mobimg{
+    position: relative;
+    left: 250px;
+    bottom: 40px;
+}
+.container-1{
+    position: relative;
+    left: 325px;
+    bottom: 149px;
+    width: 275px;
+    height: 100px;
+}
