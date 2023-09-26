@@ -11790,6 +11790,7 @@ a{
     color: white;
 }
 .vdpos{
-    position: relative;
-    top:325px;
+    position:relative;
+    top: 182px;
+    left: 40px;
 }
