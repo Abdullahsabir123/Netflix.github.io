@@ -11739,7 +11739,7 @@ li{
     margin: 5rem;
 }
 .mt-6{
-    margin-top: 150px;
+    margin-top: 210px;
 }
 .items{
     list-style-type: none;
@@ -11789,8 +11789,16 @@ a{
     background-color: black;
     color: white;
 }
-.vdpos{
-    position:relative;
-    top: 182px;
-    left: 40px;
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+}
+
+.video-container video {
+    position: absolute;
+    top: 114%;
+    left: 12%;
+    width: 74%;
+    height: 100%;
 }
